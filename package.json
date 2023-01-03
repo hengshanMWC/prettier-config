@@ -4,6 +4,7 @@
   "module": "dist/item-template.mjs",
   "license": "MIT",
   "packageManager": "pnpm@7.21.0",
+  "version": "0.0.0",
   "lint-staged": {
     "{server,client}/*.{js,ts,json,md,tsx}": "pnpm lint"
   },
