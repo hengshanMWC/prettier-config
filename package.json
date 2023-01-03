@@ -1,8 +1,16 @@
 {
   "name": "item-template",
-  "main": "dist/demo.js",
-  "module": "dist/demo.mjs",
+  "main": "dist/item-template.umd.js",
+  "module": "dist/item-template.mjs",
   "license": "MIT",
+  "packageManager": "pnpm@7.21.0",
+  "lint-staged": {
+    "{server,client}/*.{js,ts,json,md,tsx}": "pnpm lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hengshanMWC/item-template.git"
+  },
   "scripts": {
     "lint": "eslint --ext=js,ts,json,md,tsx .",
     "lint:fix": "eslint --fix --ext=js,ts,json,md,tsx .",
