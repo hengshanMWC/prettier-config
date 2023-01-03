@@ -1,13 +1,9 @@
 {
   "name": "item-template",
-  "main": "dist/item-template.umd.js",
-  "module": "dist/item-template.mjs",
-  "license": "MIT",
-  "packageManager": "pnpm@7.21.0",
   "version": "0.0.0",
-  "lint-staged": {
-    "{server,client}/*.{js,ts,json,md,tsx}": "pnpm lint"
-  },
+  "packageManager": "pnpm@7.21.0",
+  "license": "MIT",
+  "homepage": "https://github.com/hengshanMWC/item-template#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hengshanMWC/item-template.git"
@@ -15,7 +11,8 @@
   "bugs": {
     "url": "https://github.com/hengshanMWC/item-template/issues"
   },
-  "homepage": "https://github.com/hengshanMWC/item-template#readme",
+  "main": "dist/item-template.umd.js",
+  "module": "dist/item-template.mjs",
   "scripts": {
     "lint": "eslint --ext=js,ts,json,md,tsx .",
     "lint:fix": "eslint --fix --ext=js,ts,json,md,tsx .",
@@ -37,5 +34,8 @@
     "typescript": "^4.5.5",
     "vite": "^3.2.4",
     "vitepress": "1.0.0-alpha.29"
+  },
+  "lint-staged": {
+    "{server,client}/*.{js,ts,json,md,tsx}": "pnpm lint"
   }
 }
