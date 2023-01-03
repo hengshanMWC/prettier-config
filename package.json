@@ -12,9 +12,9 @@
     "url": "git+https://github.com/hengshanMWC/item-template.git"
   },
   "bugs": {
-    "url": "https://github.com/hengshanMWC/tem-template/issues"
+    "url": "https://github.com/hengshanMWC/item-template/issues"
   },
-  "homepage": "https://github.com/hengshanMWC/tem-template#readme",
+  "homepage": "https://github.com/hengshanMWC/item-template#readme",
   "scripts": {
     "lint": "eslint --ext=js,ts,json,md,tsx .",
     "lint:fix": "eslint --fix --ext=js,ts,json,md,tsx .",
