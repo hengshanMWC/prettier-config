@@ -6,6 +6,7 @@ specifiers:
   '@commitlint/config-conventional': ^16.2.1
   '@typescript-eslint/parser': ^5.12.0
   '@vitest/coverage-c8': ^0.26.3
+  colors: ^1.4.0
   eslint: ^8.9.0
   esno: ^0.16.3
   husky: ^7.0.4
@@ -21,6 +22,7 @@ devDependencies:
   '@commitlint/config-conventional': 16.2.4
   '@typescript-eslint/parser': 5.47.0_lzzuuodtsqwxnvqeq4g4likcqa
   '@vitest/coverage-c8': 0.26.3
+  colors: 1.4.0
   eslint: 8.30.0
   esno: 0.16.3
   husky: 7.0.4
@@ -1264,6 +1266,11 @@ packages:
 
   /colorette/2.0.19:
     resolution: {integrity: sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==}
+    dev: true
+
+  /colors/1.4.0:
+    resolution: {integrity: sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==}
+    engines: {node: '>=0.1.90'}
     dev: true
 
   /commander/9.4.1:

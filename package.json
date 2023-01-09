@@ -14,6 +14,7 @@
   "main": "dist/item-template.umd.js",
   "module": "dist/item-template.mjs",
   "scripts": {
+    "release": "esno ./scripts/release",
     "build": "vite build && npm run type",
     "type": "tsc --emitDeclarationOnly --declarationDir typings",
     "test": "vitest",
@@ -30,6 +31,7 @@
     "@commitlint/config-conventional": "^16.2.1",
     "@typescript-eslint/parser": "^5.12.0",
     "@vitest/coverage-c8": "^0.26.3",
+    "colors": "^1.4.0",
     "eslint": "^8.9.0",
     "esno": "^0.16.3",
     "husky": "^7.0.4",
