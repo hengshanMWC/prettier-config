@@ -1,6 +1,6 @@
 {
   "name": "item-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@7.21.0",
   "license": "MIT",
   "homepage": "https://github.com/hengshanMWC/item-template#readme",
