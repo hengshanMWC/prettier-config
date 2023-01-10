@@ -2,7 +2,6 @@
   "exclude": ["node_modules", "**/dist"],
   "include": [
     "src/index.ts",
-    "test/**/*.test.ts",
   ],
   "compilerOptions": {
     "module": "ESNext",
