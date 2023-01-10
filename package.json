@@ -15,8 +15,7 @@
   "module": "dist/item-template.mjs",
   "scripts": {
     "release": "esno ./scripts/release",
-    "build": "vite build && npm run type",
-    "type": "tsc --emitDeclarationOnly --declarationDir typings",
+    "build": "vite build && tsc",
     "test": "vitest",
     "test:cov": "vitest --coverage",
     "lint": "eslint --ext=js,ts,json,md,tsx .",
