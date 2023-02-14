@@ -1,5 +1,7 @@
 {
   "recommendations": [
-    "dbaeumer.vscode-eslint"
+    "streetsidesoftware.code-spell-checker",
+    "rvest.vs-code-prettier-eslint",
+    "wix.vscode-import-cost"
   ]
 }
