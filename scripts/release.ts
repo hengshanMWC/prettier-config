@@ -1,6 +1,7 @@
-import { execSync } from 'child_process'
+import { execSync } from 'node:child_process'
 import colors from 'colors'
 import { versionBump } from 'bumpp'
+
 console.log(`${colors.cyan.bold('release: start')} 🏗`);
 (async function () {
   execSync('npm run test', { stdio: 'inherit' })
