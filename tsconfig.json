@@ -8,7 +8,6 @@
     "moduleResolution": "node",
     "declaration": true,
     "declarationDir": "typings",
-    "emitDeclarationOnly": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "noImplicitAny": false,
@@ -22,7 +21,7 @@
     "downlevelIteration": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
   }
 }
