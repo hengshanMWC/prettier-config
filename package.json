@@ -1,7 +1,7 @@
 {
   "name": "item-template",
   "version": "0.0.0",
-  "packageManager": "pnpm@7.21.0",
+  "packageManager": "pnpm@8.5.1",
   "license": "MIT",
   "homepage": "https://github.com/hengshanMWC/item-template#readme",
   "repository": {
@@ -11,8 +11,7 @@
   "bugs": {
     "url": "https://github.com/hengshanMWC/item-template/issues"
   },
-  "main": "dist/index.umd.js",
-  "module": "dist/index.mjs",
+  "main": "dist/index.js",
   "types": "typings",
   "scripts": {
     "release": "esno ./scripts/release",
