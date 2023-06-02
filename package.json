@@ -15,6 +15,7 @@
   "module": "dist/index.mjs",
   "types": "typings",
   "scripts": {
+    "init": "pnpm i && npm run prepare",
     "release": "esno ./scripts/release",
     "build": "vite build && tsc",
     "test": "vitest",
