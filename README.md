@@ -1,5 +1,5 @@
 # introduce
-- [x] vite :package:
+- [x] webpack5 :package:
 - [x] vitest :sheep:
 - [x] typescript :alien:
 - [x] eslint、husky :flashlight:
