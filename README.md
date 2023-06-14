@@ -9,7 +9,7 @@
 ```
 git clone https://github.com/hengshanMWC/item-template.git
 cd item-template
-pnpm i
+pnpm run init
 ```
 
 # publish test
