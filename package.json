@@ -11,11 +11,21 @@
   "bugs": {
     "url": "https://github.com/hengshanMWC/item-template/issues"
   },
-  "main": "dist/index.js",
-  "types": "typings",
+  "main": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "scripts": {
+    "init": "pnpm i && npm run prepare",
     "release": "esno ./scripts/release",
-    "build": "webpack --config webpack.config.js",
+    "build": "tsup src/index.ts --format esm,cjs --dts-resolve --target node14 --clean --splitting",
     "test": "vitest",
     "test:cov": "vitest --coverage",
     "lint": "eslint --ext=js,ts,json,md,tsx .",
@@ -38,13 +48,10 @@
     "esno": "^0.16.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
-    "ts-loader": "^9.4.3",
+    "tsup": "^7.1.0",
     "typescript": "^5.0.4",
-    "validate-npm-package-name": "^5.0.0",
     "vitepress": "1.0.0-alpha.29",
-    "vitest": "^0.31.1",
-    "webpack": "^5.84.1",
-    "webpack-cli": "^5.1.1"
+    "vitest": "^0.31.1"
   },
   "lint-staged": {
     "{server,client}/*.{js,ts,json,md,tsx}": "pnpm lint"

@@ -1,5 +1,5 @@
 # introduce
-- [x] webpack5 :package:
+- [x] tsup :package:
 - [x] vitest :sheep:
 - [x] typescript :alien:
 - [x] eslint、husky :flashlight:
@@ -9,7 +9,7 @@
 ```
 git clone https://github.com/hengshanMWC/item-template.git
 cd item-template
-pnpm i
+pnpm run init
 ```
 
 # publish test
