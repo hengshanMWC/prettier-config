@@ -2,6 +2,7 @@
   "name": "item-template",
   "version": "0.0.0",
   "packageManager": "pnpm@8.5.1",
+  "access": "public",
   "license": "MIT",
   "homepage": "https://github.com/hengshanMWC/item-template#readme",
   "repository": {
@@ -12,20 +13,24 @@
     "url": "https://github.com/hengshanMWC/item-template/issues"
   },
   "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "default": "./dist/index.js"
+      "require": "./dist/index.cjs"
     }
   },
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
   "scripts": {
-    "init": "pnpm i && npm run prepare",
+    "build:unbuild": "unbuild",
+    "tsc": "tsc --emitDeclarationOnly",
+    "build": "npm run build:unbuild && npm run tsc",
+    "init": "npm i && npm run prepare",
     "release": "esno ./scripts/release",
-    "build": "tsup src/index.ts --format esm,cjs --dts-resolve --target node14 --clean --splitting",
     "test": "vitest",
     "test:cov": "vitest --coverage",
     "lint": "eslint --ext=js,ts,json,md,tsx .",
@@ -42,15 +47,15 @@
     "@types/node": "^18.11.18",
     "@typescript-eslint/parser": "^5.59.7",
     "@vitest/coverage-c8": "^0.31.0",
-    "bumpp": "^9.1.0",
     "colors": "^1.4.0",
     "eslint": "^8.41.0",
     "esno": "^0.16.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
-    "tsup": "^7.1.0",
     "typescript": "^5.0.4",
-    "vitepress": "1.0.0-alpha.29",
+    "unbuild": "^2.0.0",
+    "vite-tsconfig-paths": "^4.2.1",
+    "vitepress": "1.0.0-beta.5",
     "vitest": "^0.31.1"
   },
   "lint-staged": {
