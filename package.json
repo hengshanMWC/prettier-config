@@ -26,19 +26,18 @@
     "dist"
   ],
   "scripts": {
-    "build:unbuild": "unbuild",
-    "tsc": "tsc --emitDeclarationOnly",
-    "build": "npm run build:unbuild && npm run tsc",
     "init": "npm i && npm run prepare",
+    "prepare": "husky install",
+    "build": "unbuild",
     "release": "esno ./scripts/release",
     "test": "vitest",
     "test:cov": "vitest --coverage",
     "lint": "eslint --ext=js,ts,json,md,tsx .",
     "lint:fix": "eslint --fix --ext=js,ts,json,md,tsx .",
+
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs",
-    "prepare": "husky install"
+    "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.38.5",

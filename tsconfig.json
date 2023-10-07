@@ -1,13 +1,13 @@
 {
   "exclude": ["node_modules", "**/dist"],
   "include": [
-    "src/index.ts"
+    "src"
   ],
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "node",
+    "declarationDir": "./dist/types",
     "declaration": true,
-    "declarationDir": "typings",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "noImplicitAny": false,
