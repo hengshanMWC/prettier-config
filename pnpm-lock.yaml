@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   '@abmao/pkgs':
-    specifier: 2.2.1
-    version: 2.2.1(esbuild@0.19.4)
+    specifier: 2.2.3
+    version: 2.2.3(esbuild@0.19.4)
   '@antfu/eslint-config-ts':
     specifier: ^0.38.5
     version: 0.38.5(eslint@8.42.0)(typescript@5.0.4)
@@ -80,8 +80,8 @@ packages:
       glob: 10.3.10
     dev: true
 
-  /@abmao/pkgs@2.2.1(esbuild@0.19.4):
-    resolution: {integrity: sha512-aY3Ic4QUwATECuHhT1zht5W7Fa64hXt7KtyUSW2arf/2ic2rimg5Jcg9TiJ8UAxRRQ+V49m387f4qcUcRZk8gg==}
+  /@abmao/pkgs@2.2.3(esbuild@0.19.4):
+    resolution: {integrity: sha512-wUL6dG/2Nrm8B5O2IyxOq5MhJD8S3l4BlCVng7nxrb8n0ahzvIpJd0NFNeDFiGcp+yfLGzeKhL3GU1/+Uecs7w==}
     hasBin: true
     dependencies:
       '@abmao/bump': 0.0.1
@@ -93,7 +93,7 @@ packages:
       js-yaml: 4.1.0
       load-code: 2.1.1(esbuild@0.19.4)
       npmlog: 7.0.1
-      plugin-group: 1.0.5
+      plugin-group: 1.0.6(esbuild@0.19.4)
       semver: 7.5.4
       simple-git: 3.20.0
     transitivePeerDependencies:
@@ -5438,8 +5438,12 @@ packages:
       pathe: 1.1.0
     dev: true
 
-  /plugin-group@1.0.5:
-    resolution: {integrity: sha512-uVvK/l2Ckkk3ferx4iIvEMcVQB1KdFsyhT6eN3fIzCNdx5T1G8PCDaa5erbUKpS8Yk5uFXvr7X62KuNa7PfkfA==}
+  /plugin-group@1.0.6(esbuild@0.19.4):
+    resolution: {integrity: sha512-l69ybYOcXlHKy+Y7SLCyg6j34P8olz4XMozPFAeqWBVfAlFTZv3vKdK3/8iW34YiZjAlFfVCUrRbLbTOL+O5Dg==}
+    dependencies:
+      load-code: 2.1.1(esbuild@0.19.4)
+    transitivePeerDependencies:
+      - esbuild
     dev: true
 
   /pluralize@8.0.0:
