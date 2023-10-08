@@ -26,6 +26,7 @@
     "dist"
   ],
   "scripts": {
+    "commit": "cz",
     "init": "npm i && npm run prepare",
     "prepare": "husky install",
     "build": "unbuild",
@@ -39,7 +40,7 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "@abmao/pkgs": "2.2.1-beta.5",
+    "@abmao/pkgs": "2.2.1",
     "@antfu/eslint-config-ts": "^0.38.5",
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
@@ -47,6 +48,8 @@
     "@typescript-eslint/parser": "^5.59.7",
     "@vitest/coverage-c8": "^0.31.0",
     "colors": "^1.4.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.41.0",
     "esno": "^0.16.3",
     "husky": "^7.0.4",
