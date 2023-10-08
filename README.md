@@ -1,8 +1,9 @@
 # introduce
-- [x] unbuild :package:
-- [x] vitest :sheep:
-- [x] typescript :alien:
-- [x] eslint、husky :flashlight:
+- [x] build: unbuild 📦
+- [x] test: vitest 🔬
+- [x] typescript 👽
+- [x] eslint、husky 🔦
+- [x] commit: commitizen 📤
 
 # init
 
