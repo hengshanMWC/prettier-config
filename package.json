@@ -45,7 +45,7 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "@abmao/pkgs": "^2.2.8",
+    "@abmao/pkgs": "latest",
     "@antfu/eslint-config-ts": "^0.38.5",
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
