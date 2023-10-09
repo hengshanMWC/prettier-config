@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   '@abmao/pkgs':
-    specifier: 2.2.3
-    version: 2.2.3(esbuild@0.19.4)
+    specifier: ^2.2.7
+    version: 2.2.7(esbuild@0.19.4)
   '@antfu/eslint-config-ts':
     specifier: ^0.38.5
     version: 0.38.5(eslint@8.42.0)(typescript@5.0.4)
@@ -80,8 +80,8 @@ packages:
       glob: 10.3.10
     dev: true
 
-  /@abmao/pkgs@2.2.3(esbuild@0.19.4):
-    resolution: {integrity: sha512-wUL6dG/2Nrm8B5O2IyxOq5MhJD8S3l4BlCVng7nxrb8n0ahzvIpJd0NFNeDFiGcp+yfLGzeKhL3GU1/+Uecs7w==}
+  /@abmao/pkgs@2.2.7(esbuild@0.19.4):
+    resolution: {integrity: sha512-nc2VhPfwUdqFMAYjiMrUaJcMRYsi3gVO08QQ+TfnnrZSt86z8DakiRMmznP0y2y9pi7XLXLouL1/4F7NgMRI+g==}
     hasBin: true
     dependencies:
       '@abmao/bump': 0.0.1
