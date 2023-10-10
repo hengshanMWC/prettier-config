@@ -1,8 +1,9 @@
 # introduce
 - [x] [@abmao/pkgs](https://github.com/hengshanMWC/pkgs) 🗂️
-- [x] build: unbuild 📦
-- [x] test: vitest 🔬
+- [x] build: webpack5 📦
 - [x] typescript 👽
+- [x] test: vitest 🔬
+- [x] docs: vitepress 🧪
 - [x] eslint、husky 🔦
 - [x] commit: commitizen 📤
 
