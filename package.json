@@ -12,16 +12,16 @@
   "bugs": {
     "url": "https://github.com/hengshanMWC/item-template/issues"
   },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
     }
   },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -66,6 +66,6 @@
     "vitest": "^0.31.1"
   },
   "lint-staged": {
-    "{server,client}/*.{js,ts,json,md,tsx}": "pnpm lint"
+    "**/*.{js,jsx,tsx,ts,less,md,json}": "pnpm lint:fix"
   }
 }
