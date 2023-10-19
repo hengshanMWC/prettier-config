@@ -1,7 +1,7 @@
 {
   "recommendations": [
-    "streetsidesoftware.code-spell-checker",
-    "rvest.vs-code-prettier-eslint",
-    "wix.vscode-import-cost"
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "ZixuanChen.vitest-explorer"
   ]
 }
