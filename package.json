@@ -1,27 +1,19 @@
 {
-  "name": "prettier-config",
-  "version": "0.0.2",
+  "name": "@abmao/prettier-config",
+  "version": "0.0.0",
   "packageManager": "pnpm@8.5.1",
   "access": "public",
   "license": "MIT",
-  "homepage": "https://github.com/hengshanMWC/item-template#readme",
+  "homepage": "https://github.com/hengshanMWC/prettier-config#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hengshanMWC/item-template.git"
+    "url": "git+https://github.com/hengshanMWC/prettier-config.git"
   },
   "bugs": {
-    "url": "https://github.com/hengshanMWC/item-template/issues"
+    "url": "https://github.com/hengshanMWC/prettier-config/issues"
   },
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
-    }
-  },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "./index.js",
+  "module": "./index.js",
   "files": [
     "dist"
   ],
