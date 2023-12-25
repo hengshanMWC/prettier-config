@@ -34,7 +34,6 @@
     "commit": "cz",
     "init": "pnpm i && npm run prepare",
     "prepare": "husky install",
-    "build": "unbuild",
     "release": "esno ./scripts/release",
     "format": "eslint --fix \"{src,scripts,test}/**/*.{js,cjs,mjs,ts}\" --ignore-path .gitignore",
     "docs:dev": "vitepress dev docs",
