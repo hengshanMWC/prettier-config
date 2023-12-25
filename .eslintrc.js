@@ -2,7 +2,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
   },
-  extends: ['@antfu/eslint-config-ts'],
+  extends: ['@antfu/eslint-config-basic'],
   rules: {
     'no-console': 'off',
     'curly': 'off',

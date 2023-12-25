@@ -15,8 +15,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
     }
   },
   "main": "./dist/index.mjs",
@@ -36,8 +36,6 @@
     "prepare": "husky install",
     "build": "unbuild",
     "release": "esno ./scripts/release",
-    "test": "vitest",
-    "test:cov": "vitest --coverage",
     "format": "eslint --fix \"{src,scripts,test}/**/*.{js,cjs,mjs,ts}\" --ignore-path .gitignore",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -45,6 +43,7 @@
   },
   "devDependencies": {
     "@abmao/pkgs": "latest",
+    "@antfu/eslint-config-basic": "^0.43.1",
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
     "@types/node": "^20.10.5",
