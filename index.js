@@ -5,7 +5,7 @@ module.exports = {
   semi: false, // 行尾是否使用分号，默认为true
   singleQuote: true, // 字符串是否使用单引号
   trailingComma: 'all', // 对象或数组末尾是否添加逗号 none| es5| all
-  jsxSingleQuote: true, // 在jsx里是否使用单引号，你看着办
+  jsxSingleQuote: false, // 在jsx里是否使用单引号，你看着办
   bracketSpacing: true, // 对象大括号直接是否有空格，默认为true，效果：{ foo: bar }
   arrowParens: 'avoid', // 箭头函数如果只有一个参数则省略括号
 }
